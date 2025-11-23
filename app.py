@@ -17,8 +17,7 @@ except ImportError:
 st.set_page_config(
     page_title="France Psoriasis – Analyse",
     page_icon="logo_france_psoriasis.png",  # le fichier doit être dans le même dossier que app.py
-    layout="wide",
-    theme={"base": "light"}
+    layout="wide"
 )
 
 # Thème clair + marge haute pour que le header ne soit pas coupé
